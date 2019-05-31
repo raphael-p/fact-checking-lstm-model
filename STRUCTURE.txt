@@ -1,0 +1,15 @@
+==========================
+Structure of this project
+==========================
+
+- There are 11 directories in this folder structure.
+    1 directory to include the main report.   'main_report'
+    1 directory for each task except task 7.  'task_#'
+    1 directory for library code shared amongst each task.  'lib'
+    1 directory for data shared amongst each task.  'data'
+    1 directory for the recorded performances of neural networks in tasks 6 and 8. 'model_performances'
+
+
+- In each task directory, there are two sub-directories.
+    code: python scripts for the tasks
+    data: results and any other supplementary files
