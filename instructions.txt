@@ -1,6 +1,6 @@
 Important Information
 ================
-The code for this project is made to be compiled on Mac or Linux, and probably will
+  The code for this project is made to be compiled on Mac or Linux, and probably will
 not work without minor modifications on Windows.
 
 
@@ -30,46 +30,47 @@ Missing supplementary files
 
 Code files
 ==========
-lib/common_function.py: set of functions to used in other scripts
-lib/wikiparser.py: generates dictionary with matches a Wikipedia document ID its content
+  lib/common_function.py: set of functions to used in other scripts
+  lib/wikiparser.py: generates dictionary with matches a Wikipedia document ID its content
 
-task_1/T1_zipf.py: calculates text statistics on Wikipedia corpus
+  task_1/T1_zipf.py: calculates text statistics on Wikipedia corpus
 
-task_2/T2_A_inverse_index.py: generates and stores inverse index based on query terms in Wikipedia documents
-task_2/T2_B_vector_spaceDR.py: produces search results with TF-IDF method
+  task_2/T2_A_inverse_index.py: generates and stores inverse index based on query terms in Wikipedia documents
+  task_2/T2_B_vector_spaceDR.py: produces search results with TF-IDF method
 
-task_3/T3_A_prob_index.py: generates and stores probability of query terms in the collection
-task_3/T3_B_lambda_for_jm.py: explores parameter choice for jelinek-mercer smoothing
-task_3/T3_C_probabilisticDR.py: produces search results for all probabilistic retrieval methods
+  task_3/T3_A_prob_index.py: generates and stores probability of query terms in the collection
+  task_3/T3_B_lambda_for_jm.py: explores parameter choice for jelinek-mercer smoothing
+  task_3/T3_C_probabilisticDR.py: produces search results for all probabilistic retrieval methods
 
-task_4/T4_A_test_search.py: produces TF-IDF search results for a different set of queries (for testing)
-task_4/T4_B_embeddings.py: generates and stores GloVe-based sentence embeddings for claim and evidence
-task_4/T4_C_log_res.py: implements a logistic regression model for sentence relevance
+  task_4/T4_A_test_search.py: produces TF-IDF search results for a different set of queries (for testing)
+  task_4/T4_B_embeddings.py: generates and stores GloVe-based sentence embeddings for claim and evidence
+  task_4/T4_C_log_res.py: implements a logistic regression model for sentence relevance
 
-task_5/T5_relevance.py: implements several metrics to evaluate results from previous section
+  task_5/T5_relevance.py: implements several metrics to evaluate results from previous section
 
-task_6/T6_A_inputs.py: prepares and stores inputs of claim classification model
-task_6/T6_B_LSTM.py: implements claim classification model
+  task_6/T6_A_inputs.py: prepares and stores inputs of claim classification model
+  task_6/T6_B_LSTM.py: implements claim classification model
 
-task_6/T6_A_inputs.py: prepares and stores inputs of second claim classification model
-task_6/T6_B_LSTM.py: implements second claim classification model
+  task_6/T6_A_inputs.py: prepares and stores inputs of second claim classification model
+  task_6/T6_B_LSTM.py: implements second claim classification model
 
 
 Running the code
 ================
-All code files must be ran from the directory they are located in since file
+  All code files must be ran from the directory they are located in since file
 addresses are hard-coded and relative to the working directory. Issues may occur
 if ran on a Windows OS. MacOS or Linux are preferred.
 
-The order of execution is as followed:
+The order of execution is as follows:
   Only run the codes within the "task_#" directories, starting with task_1, onwards.
+  
   Within each "task_#" directory, all files in the code subdirectory must be ran in
-alphabetical order.
+  alphabetical order.
 
-The file "task_3/code/T3_B_lambda_for_jm.py" does not need to
+  The file "task_3/code/T3_B_lambda_for_jm.py" does not need to
 be ran, its purpose is to test various parameters
 
 
 Prerequisites Python Packages
 =============================
-tqdm, unicodedata, tensorflow, keras, json, csv, scipy, re
+  tqdm, unicodedata, tensorflow, keras, json, csv, scipy, re
