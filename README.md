@@ -1,4 +1,4 @@
-# Course project for COMP0084 Information Retrival and Data Mining at UCL
+# Course project for COMP0084 Information Retrieval and Data Mining at UCL
 
 The aims and objectives of this projects are set out in 'project_description.pdf'.
 The main achievement is the creation of an LSTM-based natural language learning model with pre-trained word embeddings.
