@@ -1,3 +1,4 @@
+from common_functions import *
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import LSTM
@@ -7,7 +8,6 @@ import numpy as np
 import json
 import sys
 sys.path.append('../../lib')
-from common_functions import *
 
 
 def recall(y_true, y_pred):
